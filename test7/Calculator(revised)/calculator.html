@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>简单计算器</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css" >
+		<script src="calculator.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.js"></script>
+	</head>
+  
+  	<body>
+		<div class="position">
+			<div class="title">
+				简单计算器
+			</div>
+			<div class="operator">
+				<input id="result" disabled="disabled" value=""/><br/>
+				<div class="buttom">
+					<div>
+						<button class = "number" id="seveen" value="7" > 7 </button>
+						<button class = "number" id="eight" value="8" > 8 </button>
+						<button class = "number" id="nine" value="9" > 9 </button>
+						<button id="divide" value="/" > / </button>
+					</div>	
+					<div>
+						<button class = "number" id="four" value="4" > 4 </button>
+						<button class = "number" id="five" value="5" > 5 </button>
+						<button class = "number" id="six" value="6" > 6 </button>
+						<button id="multiply" value="*" > * </button>
+					</div>
+					<div>
+						<button class = "number" id="one" value="1" > 1 </button>
+						<button class = "number" id="two" value="2" > 2 </button>
+						<button class = "number" id="three" value="3" > 3 </button>
+						<button id="sub" value="-" > - </button>
+					</div>
+					<div>
+						<button class = "number" id="zero" value="0" > 0 </button>
+						<button id="point" value="." > . </button>
+						<button id="delete" value="delete"  > ← </button>
+						<button id="add" value="+" > + </button>
+					</div>
+					<div>
+						<button id="left" value="(" > ( </button>
+						<button id="right" value=")" > ) </button>
+						<button id="clear" value="clear" > CE </button>
+						<button id="calculate" value="calculate" > = </button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
