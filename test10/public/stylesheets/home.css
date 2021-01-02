@@ -1,0 +1,10 @@
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    border: 5px solid black;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 650px;
+    width: 500px;
+    background-image: url("../images/1.jpg");
+    background-size: 100% 100%;
+}
